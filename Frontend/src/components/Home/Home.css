@@ -1,0 +1,41 @@
+.home-container {
+  padding: 20px;
+}
+
+.home-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.profile-section {
+  margin-bottom: 20px;
+}
+
+.profile-picture {
+  margin-bottom: 10px;
+}
+
+.profile-picture img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+input[type="file"] {
+  margin-right: 10px;
+}
+
+.home-buttons {
+  margin-top: 20px;
+}
+  
+.profile-picture-preview {
+  width: 150px; /* Set the desired width */
+  height: 150px; /* Set the desired height */
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Crops the image to fit within the container */
+  object-position: center; /* Centers the image */
+  border: 2px solid #ccc; /* Optional: border around the image */
+  margin-bottom: 20px; /* Spacing between image and other content */
+}

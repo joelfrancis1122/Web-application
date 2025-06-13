@@ -1,0 +1,70 @@
+/* src/components/CreateUser/AdminCreate.css */
+
+/* Form container */
+.create-user-form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  /* Form heading */
+  .create-user-form h2 {
+    margin-bottom: 24px;
+    font-size: 1.875rem; /* 30px */
+    font-weight: 700;
+    color: #2d3748; /* Gray-800 */
+  }
+  
+  /* Form fields styling */
+  .create-user-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.875rem; /* 14px */
+    font-weight: 500;
+    color: #4a5568; /* Gray-600 */
+  }
+  
+  .create-user-form input[type="text"],
+  .create-user-form input[type="email"],
+  .create-user-form input[type="number"],
+  .create-user-form input[type="password"],
+  .create-user-form input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #e2e8f0; /* Gray-200 */
+    border-radius: 6px;
+    box-sizing: border-box;
+  }
+  
+  /* File input styling */
+  .create-user-form input[type="file"] {
+    padding: 0;
+    border: none;
+  }
+  
+  /* Submit button styling */
+  .create-user-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #38a169; /* Green-500 */
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem; /* 16px */
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .create-user-form button:hover {
+    background-color: #2f855a; /* Green-600 */
+  }
+  
+  .create-user-form button:active {
+    transform: scale(0.98);
+  }
+  
