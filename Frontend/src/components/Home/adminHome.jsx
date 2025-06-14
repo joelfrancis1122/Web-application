@@ -19,6 +19,7 @@ const AdminHome = () => {
       window.history.replaceState({}, '');
     }
   }, []);
+  
 
   useEffect(() => {
     if (admin) {
